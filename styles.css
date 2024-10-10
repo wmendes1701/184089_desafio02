@@ -1,0 +1,383 @@
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #02A28F;
+    height: 4.5rem;
+}
+
+h1 {
+    font-family: Montserrat;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0 0 0 7.5rem; /* Mantém a margem esquerda */
+    padding-top: 0.5rem; /* Adiciona espaçamento superior */
+}
+
+h2 {
+    font-family: Montserrat;
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 0; 
+    width: 35rem;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+    gap: 2rem;
+}
+
+#left-section > img {
+    width: 46.5rem;
+    height: 25rem;
+    margin-top: 0;
+}
+
+#right-section {
+    width: 100%;
+}
+
+#right-section > h3 {
+    background: #02A28F;
+    height: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+    width: 22.5rem;
+    height: 2.2rem;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    color: white;
+    margin: 0;
+    padding-top: 1rem;
+    border-radius: 1rem; 
+    margin-top: 0.4rem;
+}
+
+.button-h3 {
+    margin-left: 1rem;
+}
+
+#posts-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    gap: 10px; 
+    width: 22.5rem;
+    height: 5.6rem;
+    margin-top: 1rem;
+}
+
+#posts-infos > img {
+    width: 8.25rem; /* Defina um tamanho fixo para a imagem */
+    height: 5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+
+#posts-infos > p{
+    margin-top: 0;
+}
+
+.post-text {
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.5rem 0 0.2rem 0;
+    text-align: end;
+}
+
+#post-one > p {
+    margin-top: 0;
+    color: #616161;
+}
+
+#posts-recentes {
+    display: flex;
+    flex-direction: row;
+}
+
+#cabeç-recentes {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background: #02A28F;
+    width: 42.8rem;
+    height: 2.8rem;
+    margin-left: 7.9rem;
+    border-radius: 0.5rem;
+}
+
+#cabeç-recentes > p {
+    color: white;
+    width: 10rem; 
+    margin-top: 0.8rem;
+    margin-left: 20rem;
+}
+
+#Categorias {
+    background: #02A28F;
+    color: white;
+    width: 22.5rem;
+    height: 3rem;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    color: white;
+    margin: 0 0 0 4rem;
+    border-radius: 0.8rem; 
+}
+
+#Categorias > h4 {
+    margin: 0.7rem 0 0 1rem;
+}
+
+#lista {
+    color: #616161;
+    margin-top: 1.5rem;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-align: left;
+    list-style-type: none;
+}
+
+#lista li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+}
+
+#lista li::before {
+    content: ">";
+}
+
+#lista .extra {
+    color: #616161;
+}
+
+.text-lista {
+    flex-grow: 1;
+    margin-left: 0.5rem;
+}
+
+.mobile-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 22.3rem);
+    grid-template-rows: auto;
+    column-gap: 0;
+    row-gap: 1rem;
+    width: 54rem;
+}
+
+#mobile {
+    width: 20.5rem;
+    height: 27.5rem;
+    margin-left: 7.9rem;
+    margin-top: 0.5rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#mobile > img {
+    width: 20.5rem;
+}
+
+.text-mobile {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    color:  #0becd2;
+}
+
+
+#mobile h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.7rem;
+}
+
+#mobile > h5 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    margin: 0 0 0 0.7rem;
+}
+
+#mobile > h6 {
+    color:  #616161;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.7rem;
+}
+
+#mobile p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.7rem;
+}
+
+#h7 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.7rem;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divfooter {
+    width: 84.3rem;
+    height: 2rem;
+    background: #02A28F;
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    height: 2rem;
+    margin: 0;
+    margin-top: 4rem;
+}
+
+#divfooter > p {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        background: #02A28F;
+        max-width: 100%;
+        height: 4.3rem;
+    }
+
+    h1 {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.26px;
+        margin-left: 6rem;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        height: 14.5rem;
+        background-color: white;
+        padding: 0;
+    }
+
+    #left-section {
+        width: 100%;
+        height: 12rem;
+        order: 0;
+    }
+
+    #left-section > img {
+        max-width: 100%;
+        height: auto;
+        padding:0;
+        background-image: cover;
+    }
+
+    #cabeç-recentes {
+        margin-left: 0;
+        margin-top: 10rem;
+        max-width: 100%;
+    }
+
+    #posts-recentes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabeç-text {
+        font-size: 1.2rem;
+    }
+
+    .mobile-cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40rem;
+    }
+
+    #mobile {
+        margin-left: 0.5rem;
+    }
+
+    #footer {
+        margin-top: 0;
+    }
+
+    #divfooter {
+        margin-top: 1rem;
+    }
+
+    #right-section {
+        order: 1;
+        width: 100%;
+        margin-top: 35rem;
+    }
+
+    #Categorias {
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+
+}
